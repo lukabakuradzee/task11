@@ -1,0 +1,143 @@
+.grid_container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  background-color: #1c1f37;
+  display: grid;
+  grid-template-columns: 200px 1240px;
+}
+
+.grid_container1 {
+  border-right: 1px solid #2D2F33;
+  height: 1024px;
+}
+
+.aside_name_box {
+  padding: 43px 0 81px 0;
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: center;
+  gap: 5px;
+}
+
+.company_name {
+  font-family: "Arimo";
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+}
+
+.username_profile_box {
+  /* border: 2px solid red; */
+  margin-bottom: 30px;
+}
+
+.username_photo {
+  display: block;
+  margin-inline: auto;
+}
+
+.username {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.edit_profile_button {
+  padding: 6px 13px;
+  background-color: #262a4b;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: white;
+  border-style: none;
+  border-radius: 20px;
+  display: block;
+  margin-inline: auto;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.dashboard_box {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 80%;
+  margin-inline: auto;
+}
+
+.dashboard_childs {
+  padding: 8px 21px;
+  display: flex;
+  gap: 5px;
+  background-color: #4c3590;
+}
+
+.dashboard_text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.dashboard_childs1 {
+  padding: 8px 18px;
+  display: flex;
+  gap: 5px;
+}
+
+.dashboard_text1 {
+  color: #757590;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 24px;
+}
+
+.change_theme {
+  width: 85%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-inline: auto;
+  margin-top: 400px;
+
+}
+
+.light {
+  color: #757590;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 21px;
+}
+
+.dark {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.grid_container2 {
+  /* background-color: green; */
+}
