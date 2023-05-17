@@ -9,7 +9,7 @@
 }
 
 .grid_container1 {
-  border-right: 1px solid #2D2F33;
+  border-right: 1px solid #2d2f33;
   height: 1024px;
 }
 
@@ -82,6 +82,7 @@
   padding: 8px 21px;
   display: flex;
   gap: 5px;
+  border-radius: 10px;
   background-color: #4c3590;
 }
 
@@ -116,8 +117,7 @@
   align-items: center;
   gap: 10px;
   margin-inline: auto;
-  margin-top: 400px;
-
+  margin-top: 370px;
 }
 
 .light {
@@ -130,14 +130,156 @@
 }
 
 .dark {
-  font-family: 'Arimo';
+  font-family: "Arimo";
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .grid_container2 {
+  padding: 45.5px 40px 34px 41px;
+  display: grid;
+  grid-template-rows: 100px;
+  /* grid-template-columns: 300px; */
+  grid-template-areas:
+    "grid_item1 grid_item1 grid_item1"
+    "grid_item2 grid_item2 grid_item2"
+    "grid_item3 grid_item3 grid_item3"
+    "grid_item4 grid_item4 grid_item4";
+}
+
+.grid_item1 {
+  /* background-color: red; */
+  width: 95%;
+  grid-area: grid_item1;
+  height: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_welcome {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 35px;
+  color: #666a87;
+}
+
+.header_span {
+  color: white;
+}
+
+.header_search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fa-magnifying-glass {
+  font-size: 1.53rem;
+  color: white;
+}
+
+.search_something {
+  font-family: "arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 24px;
+  color: #666a87;
+}
+.button_icon {
+  display: flex;
+  gap: 10px;
+}
+.upgrade_button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #4c3590;
+  color: white;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 24px;
+}
+
+.grid_item2 {
+  width: 95%;
+  grid-area: grid_item2;
+  display: flex;
+  height: auto;
   /* background-color: green; */
+}
+
+.car_purchashe {
+  width: 33%;
+  /* border: 2px solid red; */
+  padding: 16.92px 25.37px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.recent_activity_box {
+  background-color: #1c1f37;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+  /* border-style: none; */
+  padding: 13px 18px 25px 22px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.recent_activity_text {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.company_index_box1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company_index_name {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.microsoft_text {
+  font-family: "arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.microsoft_number {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.3389px;
+  line-height: 21px;
+  color:  rgb(130, 127, 127);
+}
+
+.activity_date {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.4333px;
+  line-height: 19px;
+  color: rgb(130, 127, 127);
 }
